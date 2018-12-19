@@ -3,3 +3,11 @@
 *::after {
     box-sizing: border-box;
 }
+
+#header-img {
+    width: 89px;
+}
+
+.features__article img {
+    width: 100px;
+}

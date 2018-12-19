@@ -1,11 +1,133 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>3rd Project: A product landing page</title>
-        <link rel="stylesheet" href="./style.css">
-    </head>
+  <head>
+    <title>3rd Project: A product landing page</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
 
-    <body>
-        
-    </body>
+  <body>
+    <header id="header">
+      <img
+        src="images/piano-musical-instrument.svg"
+        alt="a company logo"
+        id="header-img"
+      />
+      <h1 class="header-title">Great Piano</h1>
+      <nav id="nav-bar">
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a href="#features" class="nav-link">Features</a>
+          </li>
+          <li class="nav-item">
+            <a href="#how" class="nav-link">How It Works</a>
+          </li>
+          <li class="nav-item">
+            <a href="#pricing" class="nav-link">Pricing</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <form
+        action="https://www.freecodecamp.com/email-submit"
+        class="email-submit"
+        id="form"
+      >
+        <label for="email" class="email-label"
+          >Handcrafted, home-made masterpices</label
+        >
+        <input
+          type="email"
+          name="email"
+          id="email"
+          required
+          placeholder="Enter your email address"
+        />
+        <input type="submit" id="submit" value="Get Started" />
+      </form>
+
+      <section id="features">
+        <article class="features__article">
+          <img
+            src="images/compass-svgrepo-com.svg"
+            alt="premium Materials img"
+            class="featuers__img"
+          />
+          <div class="feature__info">
+            <h2 class="feature__title">Premium Materials</h2>
+            <span class="feature__text"
+              >Harold not one be basked a lowly. His himnot from he for carnal.
+              Did mirth many he youth with to.</span
+            >
+          </div>
+        </article>
+        <article class="features__article">
+          <img
+            src="images/windsurf-svgrepo-com.svg"
+            alt="Fast shipping img"
+            class="featuers__img"
+          />
+          <div class="feature__info">
+            <h2 class="feature__title">Fast Shipping</h2>
+            <span class="feature__text"
+              >Um gezeigt sich mein nebel sang trüben auf sich. Erfreuet ich
+              wird guten aus selbst gezeigt dem jenem. Beifall selbst kommt lieb
+              zerstoben und ich zerstoben. Meinem blick ich früh.</span
+            >
+          </div>
+        </article>
+        <article class="features__article">
+          <img
+            src="images/earth-svgrepo-com.svg"
+            alt="Quality Assurance img"
+            class="featuers__img"
+          />
+          <div class="feature__info">
+            <h2 class="feature__title">Quality Assurance</h2>
+            <span class="feature__text"
+              >Di facciamo alla non di le, lodato mescolati a a oportune dovendo
+              incominciare in coloro a. Lodato divina ripararci non occulta
+              credere che per, al i nostro oportune che facitore. Suo fosse o
+              cosa ammirabile procuratori incominciare come le forse..</span
+            >
+          </div>
+        </article>
+      </section>
+
+      <section id="how">
+        <article id="video">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/LdH1hSWGFGU"
+            frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </article>
+      </section>
+
+      <section id="pricing">
+          <article class="pricing-item">
+              <h3 class="item-title">Petite Grand</h3>
+              <h4 class="item-price">$3000</h4>
+              <p class="item-text">Smallest<br>powerful</p>
+              <button>select</button>
+          </article>
+          <article class="pricing-item">
+                <h3 class="item-title">Baby Grand</h3>
+                <h4 class="item-price">$6000</h4>
+                <p class="item-text">Popular<br>High Quality Sound<br>Affortability</p>
+                <button>select</button>
+            </article>
+            <article class="pricing-item">
+                    <h3 class="item-title">Concert Grand</h3>
+                    <h4 class="item-price">$2000</h4>
+                    <p class="item-text">Largest</p>
+                    <button>select</button>
+                </article>
+      </section>
+    </main>
+  </body>
 </html>
