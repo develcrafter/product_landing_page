@@ -4,10 +4,50 @@
     box-sizing: border-box;
 }
 
+ul, li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+#header {
+    width: 100vw;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-symbols > * {
+    display: inline-block;
+}
+
+.nav-list {
+    display: flex;
+}
+
+.nav-item {
+    margin-right: 13px;
+}
+
+main {
+    position: relative;
+    top: 100px;
+}
+
 #header-img {
     width: 89px;
 }
 
 .features__article img {
     width: 100px;
+}
+
+@media only screen and (max-width: 400px) {
+    .features__article img {
+        display: none;
+    }
 }

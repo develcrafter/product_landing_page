@@ -7,12 +7,14 @@
 
   <body>
     <header id="header">
-      <img
-        src="images/piano-musical-instrument.svg"
-        alt="a company logo"
-        id="header-img"
-      />
-      <h1 class="header-title">Great Piano</h1>
+        <div class="header-symbols">
+                <img
+                  src="https://www.svgrepo.com/show/58019/piano.svg"
+                  alt="a company logo"
+                  id="header-img"
+                />
+        <h1 class="header-title">Great Piano</h1>
+      </div>
       <nav id="nav-bar">
         <ul class="nav-list">
           <li class="nav-item">
@@ -49,10 +51,10 @@
 
       <section id="features">
         <article class="features__article">
-          <img
+            <img
             src="images/compass-svgrepo-com.svg"
-            alt="premium Materials img"
             class="featuers__img"
+            alt="premium Materials img"
           />
           <div class="feature__info">
             <h2 class="feature__title">Premium Materials</h2>
@@ -96,7 +98,7 @@
       </section>
 
       <section id="how">
-        <article id="video">
+        
           <iframe
             width="560"
             height="315"
@@ -104,30 +106,35 @@
             frameborder="0"
             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen
+            id="video"
           ></iframe>
-        </article>
+        
       </section>
 
       <section id="pricing">
-          <article class="pricing-item">
-              <h3 class="item-title">Petite Grand</h3>
-              <h4 class="item-price">$3000</h4>
-              <p class="item-text">Smallest<br>powerful</p>
-              <button>select</button>
-          </article>
-          <article class="pricing-item">
-                <h3 class="item-title">Baby Grand</h3>
-                <h4 class="item-price">$6000</h4>
-                <p class="item-text">Popular<br>High Quality Sound<br>Affortability</p>
-                <button>select</button>
-            </article>
-            <article class="pricing-item">
-                    <h3 class="item-title">Concert Grand</h3>
-                    <h4 class="item-price">$2000</h4>
-                    <p class="item-text">Largest</p>
-                    <button>select</button>
-                </article>
+        <article class="pricing-item">
+          <h3 class="item-title">Petite Grand</h3>
+          <h4 class="item-price">$3000</h4>
+          <p class="item-text">Smallest<br />powerful</p>
+          <button>select</button>
+        </article>
+        <article class="pricing-item">
+          <h3 class="item-title">Baby Grand</h3>
+          <h4 class="item-price">$6000</h4>
+          <p class="item-text">
+            Popular<br />High Quality Sound<br />Affortability
+          </p>
+          <button>select</button>
+        </article>
+        <article class="pricing-item">
+          <h3 class="item-title">Concert Grand</h3>
+          <h4 class="item-price">$2000</h4>
+          <p class="item-text">Largest</p>
+          <button>select</button>
+        </article>
       </section>
     </main>
+
+    <script src=" https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
   </body>
 </html>
